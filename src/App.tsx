@@ -10,6 +10,9 @@ function App(): React.JSX.Element {
             <p>
                 Amelie Flokiewicz
             </p>
+            <p>
+                Hello World!
+            </p>
         </div>
     );
 }
