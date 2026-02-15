@@ -27,11 +27,23 @@ function App(): React.JSX.Element {
                             <li>Lettuce</li>
                             <li>Tomato</li>
                         </ul>
-                        <div id="rectangle"></div>
+                        <div
+                            style={{
+                                width: "500px",
+                                height: "200 px",
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </Col>
                     <Col>
                         <img src={hamster} alt="hamster." />
-                        <div id="rectangle"></div>
+                        <div
+                            style={{
+                                width: "500px",
+                                height: "200 px",
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </Col>
                 </Row>
             </Container>
