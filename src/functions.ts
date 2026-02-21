@@ -29,7 +29,7 @@ export function add3(first: number, second: number, third: number): number {
 
 /**
  * Consumes a string and produces the same string in UPPERCASE and with an exclamation
- * mark added to the end.
+ * mark added to the end..
  */
 export function shout(message: string): string {
     return message.toUpperCase() + "!";
