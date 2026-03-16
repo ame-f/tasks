@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
-export function MultipleChoiceQuestion({
+export function MultipleChoiceQuestions({
     options,
     expectedAnswer,
 }: {
@@ -16,7 +16,7 @@ export function MultipleChoiceQuestion({
 
     return (
         <div>
-            <Form.Group controlId="multipleChoiceQuestion">
+            <Form.Group controlId="multipleChoiceQuestions">
                 <Form.Label>Select an Answer:</Form.Label>
                 <Form.Select value={selectedChoice} onChange={updateChoice}>
                     {options.map((option: string) => (
